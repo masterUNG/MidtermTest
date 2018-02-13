@@ -3,7 +3,6 @@
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-
     <!--Toolbar-->
     <android.support.v7.widget.Toolbar
         android:id="@+id/toolbarCalculate"
@@ -13,24 +12,36 @@
         android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" />
 
 
-    <ImageView
-        android:scaleType="centerCrop"
-        android:src="@drawable/bg"
+    <LinearLayout
+        android:orientation="vertical"
         android:layout_width="match_parent"
-        android:layout_height="match_parent" />
-
-    <FrameLayout
-        android:id="@+id/contentMainFragment"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"/>
-
-    <Button
-        android:id="@+id/btncalculate"
-        android:text="Exchange"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="match_parent">
 
 
+
+        <ImageView
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/ic_action_name2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+        <EditText
+            android:inputType="text"
+            android:hint="Money In USD"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+        <Button
+            android:id="@+id/btncalculate2"
+            android:text="Exchange"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+    </LinearLayout>
 
 
 </LinearLayout>
+
