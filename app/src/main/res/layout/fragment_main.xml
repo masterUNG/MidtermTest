@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_margin="50dp"
+        android:padding="16dp"
+        android:background="#82ffffff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_margin="50dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/bt1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_gravity="center_horizontal"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:text="ธนพงษ์"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_gravity="center_horizontal"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:text="ธนพงษ์"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/btncalculate"
+            android:text="Calculate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
